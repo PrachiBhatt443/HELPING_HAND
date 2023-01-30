@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | PG Life</title>
+
+    <link href="/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" /> 
+    <link href="content.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpg" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
+                <ul class="navbar-nav">
+                    <div class='nav-name'>
+                        Welcome Freshies...
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="fas fa-user"></i>Services
+                        </a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-sign-out-alt"></i>Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="loading">
+    </div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb py-2">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+                Services
+            </li>
+        </ol>
+    </nav>
+
+    <div id="loading">
+    </div>
+
+    <div class="my-interested-properties">
+        <div class="page-container">
+            <h1 class="sub">Subjects</h1>
+
+            <div class="property-card property-id-1 row">
+                <div class="image-container col-md-4">
+                    <img src="img/c.webp" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+
+                    </div>
+                    <div class="detail-container">
+                        <div class="subject-name">C Programming</div>
+                        <div class="suggested-book">
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">Reema Thareja</a>
+                        </div>
+                        <div class="source">
+                            <a href="/img/c_syllabus.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/bee.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+                    
+                    <div class="detail-container">
+                        <div class="subject-name">Electrical Engineering</div>
+                        <div class="suggested-book">
+                            <a href="/first Year/mechanical/mech.pdf" target="_blank">H.K.Goel</a> </div>
+                        <div class="source">
+                            <a href="/img/c_syllabus.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/math.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                    </div>
+                    <div class="detail-container">
+                        <div class="subject-name">Mathematics</div>
+                        <div class="suggested-book"> 
+                            <a href="/first Year/mathematics/Higher engg mathematics.pdf" target="_blank">Higher Engineering Mathematics</a>
+                        </div>
+                        <div class="source">
+                            <a href="/first Year/mathematics/IMG-20220325-WA0013.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                    <!-- <div class="row no-gutters">
+                        <div class="rent-container col-6">
+                            <div class="rent">Rs 9,500/-</div>
+                            <div class="rent-unit">per month</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/chem.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+
+                    <div class="detail-container">
+                        <div class="subject-name">Chemistry</div>
+                        <div class="suggested-book"><a href="/first Year/chemistry/engg chem RK Goyal.pdf" target="_blank">R.K.Goel </a></div>
+                        <div class="source">
+                            <a href="/first Year/english/Screenshot_20220621_105535.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/me.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+
+                    <div class="detail-container">
+                        <div class="subject-name">Mechanical Engineering</div>
+                        <div class="suggested-book"><a href="/first Year/mechanical/ME SK Singh.pdf"target="_blank"> S.K.Singh</a></div>
+                        <div class="source">
+                            <a href="/first Year/mechanical/syllabus.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                    <!-- <div class="row no-gutters">
+                        <div class="rent-container col-6">
+                            <div class="rent">Rs 9,500/-</div>
+                            <div class="rent-unit">per month</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/eng.png" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                    
+                    </div>
+                    <div class="detail-container">
+                        <div class="subject-name">English</div>
+                        <div class="suggested-book"><a href="/first Year/english/kupdf.net_raman-meenakshi-sharma-sangeeta-technical-communication-principles-and-practice-oxford-university-press-2015 (1).pdf ">Technical Communication 
+                        </a></div>
+                        <div class="source">
+                            <a href="/first Year/english/Screenshot_20220621_105535.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/evs.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                       
+                    </div>
+                    <div class="detail-container">
+                        <div class="subject-name">Environmental Science</div>
+                        <div class="suggested-book">H.K.Goel</div>
+                        <div class="source">
+                            <a href="/img/c_syllabus.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="property-card property-id-2 row">
+                <div class="image-container col-md-4">
+                    <img src="img/ece.webp" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                       
+                    </div>
+                    <div class="detail-container">
+                        <div class="subject-name">Electronics</div>
+                        <div class="suggested-book">book</div>
+                        <div class="source">
+                            <a href="/img/c_syllabus.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card property-id-1 row">
+                <div class="image-container col-md-4">
+                    <img src="img/phy.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                       
+                    </div>
+                    <div class="detail-container">
+                        <div class="subject-name">Physics</div>
+                        <div class="suggested-book">
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">Reema Thareja</a>
+                        </div>
+                        <div class="property-gender">
+                            <a href="/website/img/c_syllabus.jpg" target="_blank">Syllabus</a>
+                            <br>
+                            <a href="/pdf/Reema Thareja.pdf" target="blank">PYQ's</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="page-container footer-container">
+            <div class="footer-copyright">© 2022 Copyright Helping Hand </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
