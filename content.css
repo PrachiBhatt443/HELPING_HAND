@@ -1,0 +1,328 @@
+@media (max-width: 768px) {
+    .profile-img-container {
+        text-align: center;
+        padding-bottom: 32px;
+    }
+}
+
+.profile-img {
+    color: #7d7d7d;
+    font-size: 75px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+.profile .name {
+    font-weight: bold;
+}
+
+.edit-profile {
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.my-interested-properties {
+    background-color: #191817;
+}
+
+.property-card {
+    background-color:white;
+    border-radius: 2px;
+    padding: 15px 0px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.property-card:focus,
+.property-card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        padding-bottom: 12px;
+    }
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.star-container i {
+    color: #EA322E;
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+.interested-container {
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.interested-container i {
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested-text {
+    font-size: 10px;
+}
+
+.detail-container {
+    padding-bottom: 10px;
+    
+}
+
+.subject-name {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.suggested-book {
+    color: #6f6f6f;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.rent-container {
+    display: flex;
+    align-items: center;
+}
+
+.rent {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.rent-unit {
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 140px;
+    float: right;
+}
+common
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #373737;
+    font-size: 16px;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-primary,
+.btn-warning,
+.btn-danger {
+    color: white;
+    font-weight: bold;
+}
+
+.input-group .input-group-text i {
+    width: 14px;
+}
+
+input[type="radio"] {
+    position: relative;
+    top: 1px;
+}
+
+.breadcrumb {
+    background-color: #e5e3e8;
+    font-size: 13px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.container {
+    max-width: 920px;
+    padding: 0px 20px;
+}
+
+.page-container {
+    max-width: 800px;
+    padding: 80px 24px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        padding: 64px 24px;
+    }
+}
+
+.white {
+    color: #ffffff;
+}
+
+#loading {
+    display: none;
+    background-color: #666666;
+    background-image: url("../img/progress_spinner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
+}
+
+/* Login Modal */
+#login-modal .modal-dialog {
+    width: 350px;
+    margin: auto;
+}
+
+.modal-footer {
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+/* Header */
+.header {
+    background: rgba(0, 0, 0, 0.7)url(/website/img/artwork-7182495_1280.jpg);
+    font-size: 13px;
+}
+
+.header .navbar .navbar-brand img {
+    height: 40px;
+}
+
+.header .navbar .nav-item i {
+    margin-right: 8px;
+}
+
+.header .nav-vl {
+    border-left: 2px solid #d6d6d678;
+    height: 24px;
+    margin: auto 16px;
+    display: block;
+}
+
+@media(max-width:768px) {
+    .header .nav-vl {
+        display: none;
+    }
+}
+
+.header .nav-name {
+    font-weight: bold;
+    margin: auto 16px;
+}
+
+@media(max-width:768px) {
+    .header .nav-name {
+        margin: 8px 0px
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #333333;
+    font-size: 13px;
+}
+
+.footer-container {
+    padding: 24px;
+}
+
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-city {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .footer-city {
+        width: 100%;
+    }
+}
+
+.footer-city a {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #4487c6;
+    text-align: center;
+    padding-top: 24px;
+}
+.background,.property-card{
+    /* background:rgba(0,0,0,0.7)url(/website/img/green-blue-violet-gradient-8k-xv-7680x4320.jpg); */
+    /* background-size: cover; */
+    background-blend-mode:darken ;
+}
+.my-interested-properties {
+    background:rgba(0,0,0,0.7)url(/img/best-watercolor-backgrounds.jpg);
+    background-size: cover;
+}
+.sub{
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: rgb(209, 243, 250);
+}
+.source a{
+    text-decoration: none;
+    color: rgb(20, 136, 238);
+}
+.source a:hover{
+    text-decoration: none;
+    color: rgb(166, 23, 23);
+}
