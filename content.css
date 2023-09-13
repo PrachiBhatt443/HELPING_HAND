@@ -27,7 +27,7 @@
 }
 
 .my-interested-properties {
-    ackground-color:rgba(23,162,184,.5);
+    background-color:rgba(23,162,184,.5);
 }
 
 .property-card {
@@ -304,15 +304,15 @@ input[type="radio"] {
     text-align: center;
     padding-top: 24px;
 }
-.background,.property-card{
+/* .background,.property-card{
     /* background:rgba(0,0,0,0.7)url(/website/img/green-blue-violet-gradient-8k-xv-7680x4320.jpg); */
     /* background-size: cover; */
     background-blend-mode:darken ;
-}
-.my-interested-properties {
+} */
+/* .my-interested-properties {
     background:rgba(0,0,0,0.7)url(/img/best-watercolor-backgrounds.jpg);
     background-size: cover;
-}
+} */
 .sub{
     font-weight:bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
