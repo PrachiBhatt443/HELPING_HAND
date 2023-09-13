@@ -119,6 +119,9 @@
     max-width: 80%;
     background:rgba(35, 55, 89, 0.7);
 }
+.section a{
+    text-decoration:none;
+}
 .left{
     flex-direction: row-reverse;
 }
