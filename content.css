@@ -27,11 +27,12 @@
 }
 
 .my-interested-properties {
-    background-color: #191817;
+    ackground-color:rgba(23,162,184,.5);
 }
 
 .property-card {
-    background-color:white;
+    
+    background-color: #e3dfbc;
     border-radius: 2px;
     padding: 15px 0px;
     margin: 20px auto;
